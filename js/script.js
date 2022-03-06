@@ -136,6 +136,7 @@ function validate() {
       document.getElementById("skill").value
     }!`;
     document.getElementById("result").innerHTML = text;
+    document.getElementById("error").style.display = "none";
     return false;
   }
   return true;
